@@ -24,6 +24,9 @@ const Home = () => {
             accusamus.
           </Col>
         </Row>
+        <div className="text-2xl bg-slate-500">
+          Homepage
+        </div>
       </div>
     </>
   );
