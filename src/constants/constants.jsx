@@ -1,0 +1,9 @@
+export const HOME = "/";
+export const LOGIN = "/auth/login";
+export const SIGNUP = "/auth/login";
+export const FORGET_PASSWORD = "/auth/forget-password";
+export const CHANGE_PASSWORD = "/auth/change-password";
+export const CONTACT_US = "/contact";
+export const ABOUT = "/about";
+export const EVENTS = "/events";
+export const GALLERY = "/gallery";
