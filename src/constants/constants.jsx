@@ -1,4 +1,4 @@
-export const HOME = "/";
+export const HOME = "/React-temp";
 export const LOGIN = "/auth/login";
 export const SIGNUP = "/auth/login";
 export const FORGET_PASSWORD = "/auth/forget-password";
