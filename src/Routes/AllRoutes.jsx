@@ -15,6 +15,7 @@ import Gallery from "../pages/gallery/Gallery";
 import PageNotFound from "../pages/page404/Page404";
 import Latest from "../components/gallery/Latest";
 import Featured from "../components/gallery/Featured";
+import AllImages from "../components/gallery/AllImages";
 
 const AllRoutes = () => {
   return (
@@ -24,7 +25,8 @@ const AllRoutes = () => {
       <Route path={ABOUT} element={<About />} />
       <Route path={EVENTS} element={<Events />} />
       <Route path={GALLERY} element={<Gallery />}>
-        <Route index element={<Featured />} />
+        <Route index element={<AllImages />} />
+        <Route path="all-images" element={<AllImages />} />
         <Route path="featured" element={<Featured />} />
         <Route path="latest" element={<Latest />} />
       </Route>
